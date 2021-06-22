@@ -24,8 +24,8 @@ DHT dhtSensor(DHT_PIN, DHT_TYPE); // Defines the sensor
 
 
 // Replace the next variables with your Wi-Fi SSID/Password
-const char *WIFI_SSID = "Redmi";
-const char *WIFI_PASSWORD = "12345678";
+const char *WIFI_SSID = "***";
+const char *WIFI_PASSWORD = "*****";
 char macAddress[18];
 
 
@@ -222,8 +222,8 @@ void publishSmallJsonVaca() {
   Serial.println(" <= " + String(topic) + ": " + String(buffer));
 }
 
-void publishSmallJsonGranja() {
-  static const String topicStr = createTopic("Granja");
+void publishSmallJsonPlanta() {
+  static const String topicStr = createTopic("Planta");
   static const char *topic = topicStr.c_str();
 
   StaticJsonDocument<128> doc; // Create JSON document of 128 bytes
