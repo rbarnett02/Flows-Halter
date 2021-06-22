@@ -46,15 +46,15 @@ static float temperatura;
 
 
 // Configuración del Wifi
-const char *WIFI_SSID = "MiFibra-CEF0";
-const char *WIFI_PASSWORD = "tMkR7SKw";
+const char *WIFI_SSID = "***";
+const char *WIFI_PASSWORD = "***";
 char macAddress[18];
 
 //const char *MQTT_BROKER_IP = "iiot-upc.gleeze.com";
 const char *MQTT_BROKER_IP = "linvirtualazure01.northeurope.cloudapp.azure.com"; //23.100.54.173
 const int MQTT_PORT = 1883;
 //const char *MQTT_USER = "iiot-upc";
-//const char *MQTT_PASSWORD = "cim2020";
+//const char *MQTT_PASSWORD = "**";
 const char *MQTT_USER = "";
 const char *MQTT_PASSWORD = "";
 const bool RETAINED = true;
