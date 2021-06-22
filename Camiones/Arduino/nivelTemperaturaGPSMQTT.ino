@@ -50,8 +50,8 @@ HardwareSerial SerialGPS(1);
 TinyGPSPlus gps;
 
 // Configuración del Wifi
-const char *WIFI_SSID = "MiFibra-CEF0";
-const char *WIFI_PASSWORD = "tMkR7SKw";
+const char *WIFI_SSID = "***";
+const char *WIFI_PASSWORD = "****";
 char macAddress[18];
 
 //const char *MQTT_BROKER_IP = "iiot-upc.gleeze.com";
