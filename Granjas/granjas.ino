@@ -21,11 +21,9 @@ TinyGPSPlus gps;
 DHT dhtSensor(DHT_PIN, DHT_TYPE); // Defines the sensor
 
 
-
-
 // Replace the next variables with your Wi-Fi SSID/Password
-const char *WIFI_SSID = "Redmi";
-const char *WIFI_PASSWORD = "12345678";
+const char *WIFI_SSID = "***";
+const char *WIFI_PASSWORD = "*****";
 char macAddress[18];
 
 
