@@ -58,7 +58,7 @@ char macAddress[18];
 const char *MQTT_BROKER_IP = "linvirtualazure01.northeurope.cloudapp.azure.com"; //23.100.54.173
 const int MQTT_PORT = 1883;
 //const char *MQTT_USER = "iiot-upc";
-//const char *MQTT_PASSWORD = "cim2020";
+//const char *MQTT_PASSWORD = "****";
 const char *MQTT_USER = "";
 const char *MQTT_PASSWORD = "";
 const bool RETAINED = true;
